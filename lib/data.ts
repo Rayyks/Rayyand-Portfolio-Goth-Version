@@ -89,6 +89,7 @@ export const experiencesData = [
 export const projectsData = [
   {
     title: "DSC (Udemy Clone)",
+    completed: true,
     description:
       "🌐 DSC: Easy login, diverse courses, secure payments, track progress, learn anywhere, dynamic content, supportive community. 📚",
     tags: [
@@ -107,6 +108,7 @@ export const projectsData = [
   },
   {
     title: "CoinInfo",
+    completed: true,
     description:
       "Coin Info: Web app for crypto and NFTs. View graphs, add to cart after login/signup.🪙💰",
     tags: ["React", "Firebase", "Recharts", "Tailwind"],
@@ -116,17 +118,19 @@ export const projectsData = [
   },
   {
     title: "Clean.In",
+    completed: false,
     description:
       "Simplify laundry with our Mobile App! Streamline your routine, say goodbye to hassles, and embrace convenience. 🧺📱",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+    tags: ["Flutter", "Dart", "MySql", "Laravel"],
     imageUrl: Clean,
     demoUrl: null,
     codeUrl: "https://github.com/Rayyks/GYAT",
   },
   {
-    title: "Qr code based student attendance",
+    title: "Qr code attendance",
+    completed: true,
     description:
-      "Student attendance application using qr code to facilitate the attendance process",
+      "Student attendance application using qr code to facilitate the attendance process.📅✅",
     tags: ["PHP", "HTML", "CSS", "JavaScript", "Bootstrap", "MySql"],
     imageUrl: QR,
     demoUrl: null,
@@ -134,6 +138,7 @@ export const projectsData = [
   },
   {
     title: "Go Watch",
+    completed: true,
     description:
       "Built a movie app with React JS: search, view details, check ratings. Save favorites using browser's local memory. 🎬🔍🌟",
     tags: ["React", "SCSS", "IMDB API"],
@@ -143,6 +148,7 @@ export const projectsData = [
   },
   {
     title: "Sentra HKI",
+    completed: true,
     description:
       "Sentra HKI Web App: Effortless copyright services for artists. Create, secure, manage intellectual assets. Register/login for submissions. 🎨📝🔐",
     tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
@@ -152,6 +158,7 @@ export const projectsData = [
   },
   {
     title: "My Weather",
+    completed: true,
     description:
       "Just useless project tbh, and yeah. This just for seing a weather from all location in this world🌍☁️",
     tags: ["React", "CSS", "Open Weather API"],
