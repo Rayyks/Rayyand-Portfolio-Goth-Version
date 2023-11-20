@@ -67,7 +67,7 @@ export const experiencesData = [
     description:
       "Revamped the web application's UI/UX by optimizing responsiveness and design as a web designer",
     icon: React.createElement(LuGraduationCap),
-    date: "2019 - 2020",
+    date: "2020 - 2021",
   },
   {
     title: "Front-End Developer",
@@ -75,14 +75,14 @@ export const experiencesData = [
     description:
       "Working on the frontend of the web application using ReactJS, and Material UI & TailwindCss.",
     icon: React.createElement(CgWorkAlt),
-    date: "2021 - 2022",
+    date: "2022 - 2023",
   },
   {
     title: "Full-Stack Developer (College Project with real Client)",
     location: "Politeknik Negeri, Batam ",
     description: "Working on the Fullstack of the web application",
     icon: React.createElement(FaReact),
-    date: "2022 - present",
+    date: "2023 - present",
   },
 ] as const;
 
