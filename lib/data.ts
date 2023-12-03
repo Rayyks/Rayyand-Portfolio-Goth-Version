@@ -124,7 +124,7 @@ export const projectsData = [
     tags: ["Flutter", "Dart", "MySql", "Laravel"],
     imageUrl: Clean,
     demoUrl: null,
-    codeUrl: "https://github.com/Rayyks/CLEAN.IN",
+    codeUrl: "https://github.com/Rayyks/CLEAN.IN ",
   },
   {
     title: "Qr code attendance",
