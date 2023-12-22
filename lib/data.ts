@@ -2,6 +2,7 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
+import DM from "@/public/images/digital.webp";
 import DSC from "@/public/images/course.webp";
 import Coin from "@/public/images/coin.webp";
 import Clean from "@/public/images/clean.jpg";
@@ -88,10 +89,26 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    title: "Digital Store",
+    completed: true,
+    description: "🛍️ Digital Store: for shop. yea, that's it",
+    tags: [
+      "React",
+      "Next.js",
+      "MonggoDb",
+      "Tailwind",
+      "TRPC",
+      "Stripe",
+      "Payload",
+    ],
+    imageUrl: DM,
+    demoUrl: null,
+    codeUrl: "https://github.com/Rayyks/digital-mart",
+  },
+  {
     title: "DSC (Udemy Clone)",
     completed: true,
-    description:
-      "🌐 DSC: Easy login, diverse courses, secure payments, track progress, learn anywhere, dynamic content, supportive community. 📚",
+    description: "🌐 DSC: Learning 😊",
     tags: [
       "React",
       "Next.js",
