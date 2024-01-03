@@ -3,6 +3,7 @@ import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import DM from "@/public/images/digital.webp";
+import RIZZ from "@/public/images/socialrizz.webp";
 import DSC from "@/public/images/course.webp";
 import Coin from "@/public/images/coin.webp";
 import Clean from "@/public/images/clean.jpg";
@@ -89,6 +90,16 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    title: "SocialRizz",
+    completed: false,
+    description:
+      "SocialRizz - Where vibes collide, stories unfold, and it's all about having a good time!",
+    tags: ["React", "Laravel", "MySql", "Tailwind", "DaisyUI", "PhpMyAdmin"],
+    imageUrl: RIZZ,
+    demoUrl: null,
+    codeUrl: "https://github.com/Rayyks/SocialRizz",
+  },
+  {
     title: "Digital Store",
     completed: true,
     description: "🛍️ Digital Store: for shop. yea, that's it",
@@ -135,7 +146,7 @@ export const projectsData = [
   },
   {
     title: "Clean.In",
-    completed: false,
+    completed: true,
     description:
       "Simplify laundry with our Mobile App! Streamline your routine, say goodbye to hassles, and embrace convenience. 🧺📱",
     tags: ["Flutter", "Dart", "MySql", "Laravel"],
